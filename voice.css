@@ -106,3 +106,33 @@ label {
 		padding: 10px 20px;
 	}
 }
+
+/* Additional media query for thinner phones */
+@media (max-width: 480px) {
+	.container {
+		padding: 10px;
+		width: 100%;
+		height: auto;
+	}
+
+	.voice {
+		padding: 10px;
+		width: 90%; /* Adjust as needed */
+		height: auto;
+	}
+
+	#floatingTextarea {
+		width: 80%; /* Adjust as needed */
+		height: auto;
+	}
+
+	#voice-type {
+		width: 70%; /* Adjust as needed */
+		height: auto;
+	}
+
+	.btn {
+		width: 70%; /* Adjust as needed */
+		padding: 10px 20px;
+	}
+}
