@@ -85,6 +85,12 @@ label {
 		height: auto;
 	}
 
+	.voice {
+		padding: 10px;
+		width: 100%;
+		height: auto;
+	}
+
 	#floatingTextarea {
 		width: 60%;
 		height: auto;
