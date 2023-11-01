@@ -81,22 +81,22 @@ label {
 @media (max-width: 768px) {
 	.container {
 		padding: 10px;
-		width: 90%;
+		width: 100%;
 		height: auto;
 	}
 
 	#floatingTextarea {
 		width: 60%;
-		height: 80px;
+		height: auto;
 	}
 
 	#voice-type {
-		width: 100%;
+		width: 60%;
 		height: auto;
 	}
 
 	.btn {
-		width: 100%;
+		width: 60%;
 		padding: 10px 20px;
 	}
 }
