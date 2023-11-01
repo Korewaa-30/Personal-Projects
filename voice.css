@@ -109,6 +109,10 @@ label {
 }
 
 @media (max-width: 480px) {
+	body {
+		margin: 0 auto;
+	}
+
 	.container {
 		padding: 10px;
 		width: 100%;
