@@ -111,6 +111,8 @@ label {
 @media (max-width: 480px) {
 	body {
 		margin: 0 auto;
+		overflow-x: hidden;
+		overflow-y: hidden;
 	}
 
 	.container {
@@ -122,22 +124,22 @@ label {
 
 	.voice {
 		padding: 10px;
-		width: 90%; /* Adjust as needed */
+		width: 90%;
 		height: auto;
 	}
 
 	#floatingTextarea {
-		width: 80%; /* Adjust as needed */
+		width: 80%;
 		height: auto;
 	}
 
 	#voice-type {
-		width: 50%; /* Adjust as needed */
+		width: 50%;
 		height: auto;
 	}
 
 	.btn {
-		width: 50%; /* Adjust as needed */
+		width: 50%;
 		padding: 10px 20px;
 	}
 }
