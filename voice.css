@@ -109,6 +109,7 @@ label {
 }
 
 @media (max-width: 480px) {
+	html,
 	body {
 		margin: 0 auto;
 		overflow-x: hidden;
