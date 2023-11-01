@@ -107,7 +107,6 @@ label {
 	}
 }
 
-/* Additional media query for thinner phones */
 @media (max-width: 480px) {
 	.container {
 		padding: 10px;
@@ -127,12 +126,12 @@ label {
 	}
 
 	#voice-type {
-		width: 70%; /* Adjust as needed */
+		width: 50%; /* Adjust as needed */
 		height: auto;
 	}
 
 	.btn {
-		width: 70%; /* Adjust as needed */
+		width: 50%; /* Adjust as needed */
 		padding: 10px 20px;
 	}
 }
