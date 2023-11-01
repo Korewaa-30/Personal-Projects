@@ -82,11 +82,17 @@ label {
 	.container {
 		padding: 10px;
 		width: 90%;
+		height: auto;
 	}
 
 	#floatingTextarea {
+		width: 60%;
+		height: 80px;
+	}
+
+	#voice-type {
 		width: 100%;
-		height: 100px;
+		height: auto;
 	}
 
 	.btn {
