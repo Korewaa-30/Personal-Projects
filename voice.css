@@ -79,6 +79,13 @@ label {
 }
 
 @media (max-width: 768px) {
+	html,
+	body {
+		margin: 0 auto;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
 	.container {
 		padding: 10px;
 		width: 100%;
