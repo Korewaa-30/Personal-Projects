@@ -39,45 +39,46 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>Text to Speech <span class="convert">Converter</span></h1>
-			<div class="form-floating">
-				<textarea
-					class="form-control"
-					placeholder="Comments"
-					id="floatingTextarea"
-					style="height: 250px"
-				></textarea>
-				<label for="floatingTextarea">Write anything here...</label>
-			</div>
-			<div class="row">
-				<div class="col-6">
-					<select
-						name="voices"
-						id="voice-type"
-					></select>
+			<div class="voice">
+				<h1>Text to Speech <span class="convert">Converter</span></h1>
+				<div class="form-floating">
+					<textarea
+						class="form-control"
+						placeholder="Comments"
+						id="floatingTextarea"
+						style="height: 250px"
+					></textarea>
+					<label for="floatingTextarea">Write anything here...</label>
 				</div>
-				<div class="col-5">
-					<button
-						type="button"
-						class="btn"
-					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="30"
-							height="30"
-							fill="currentColor"
-							class="bi bi-play-fill"
-							viewBox="0 0 16 16"
+				<div class="row">
+					<div class="col-6">
+						<select
+							name="voices"
+							id="voice-type"
+						></select>
+					</div>
+					<div class="col-5">
+						<button
+							type="button"
+							class="btn"
 						>
-							<path
-								d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
-							/>
-						</svg>
-						Listen
-					</button>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="30"
+								height="30"
+								fill="currentColor"
+								class="bi bi-play-fill"
+								viewBox="0 0 16 16"
+							>
+								<path
+									d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
+								/>
+							</svg>
+							Listen
+						</button>
+					</div>
 				</div>
 			</div>
-			<div class="voice"></div>
 		</div>
 		<script src="voice.js"></script>
 	</body>

@@ -2,6 +2,7 @@ h1 {
 	color: #fff;
 	font-size: 48px;
 	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	padding-bottom: 10px;
 }
 
 h1 .convert {
@@ -21,15 +22,24 @@ label {
 	border-radius: 5px;
 	display: flex;
 	flex-direction: column;
+	height: 600px;
 	justify-content: center;
 	margin-top: 30px;
+	margin-bottom: 30px;
 	padding: 30px;
 	width: 100%;
 }
 
+.voice {
+	background-color: #3e1282;
+	border: 1px solid #4a148c;
+	border-radius: 5px;
+	padding: 20px 100px;
+}
+
 #floatingTextarea {
-	background-color: #463aa3;
-	border: 1px solid #463aa3;
+	background-color: #5d289e;
+	border: 1px solid #5d289e;
 	color: #fff;
 	font-size: 15px;
 	margin-bottom: 10px;
@@ -39,6 +49,7 @@ label {
 .btn {
 	background-color: #fff;
 	border-radius: 20px;
+	box-shadow: #dd9d9d;
 	padding: 10px 30px;
 	width: 150px;
 }
@@ -56,7 +67,7 @@ label {
 }
 
 #voice-type {
-	background-color: #463aa3;
+	background-color: #5d289e;
 	border-radius: 20px;
 	height: 50px;
 	width: 300px;
